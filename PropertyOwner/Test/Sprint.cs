@@ -78,6 +78,39 @@ namespace Keys_Onboarding.Test
                 obj.ListARental();
 
             }
+            [Test]
+            public void PO_AddNewAdvertisement()
+            {
+                // Creates a toggle for the given test, adds all log events under it    
+                test = extent.StartTest("Add a Rental Property");
+
+                // Create an class and object to call the method
+                PropertyPage obj = new PropertyPage();
+                obj.AddingAdvertisedJobs();
+
+            }
+            [Test]
+            public void PO_EditAdvertisement()
+            {
+                // Creates a toggle for the given test, adds all log events under it    
+                test = extent.StartTest("Add a Rental Property");
+
+                // Create an class and object to call the method
+                PropertyPage obj = new PropertyPage();
+                obj.EditAdvertisedJobs();
+
+            }
+            [Test]
+            public void PO_DeleteAdvertisement()
+            {
+                // Creates a toggle for the given test, adds all log events under it    
+                test = extent.StartTest("Add a Rental Property");
+
+                // Create an class and object to call the method
+                PropertyPage obj = new PropertyPage();
+                obj.DeleteAdvertisedJobs();
+
+            }
 
         }
     }
